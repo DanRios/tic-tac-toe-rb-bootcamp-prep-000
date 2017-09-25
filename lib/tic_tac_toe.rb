@@ -119,4 +119,3 @@ if won?(board)
 else
   puts "Cat's Game!"
 end
-
