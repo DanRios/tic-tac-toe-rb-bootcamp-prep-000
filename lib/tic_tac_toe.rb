@@ -115,6 +115,9 @@ until over?(board)
   current_player(board)
   turn(board)
 end
+until draw?(board)
+  current_player(board)
+  turn(board)
 if won?(board)
   puts "Congratulations #{winner(board)}!"
 else draw?(board) == true
