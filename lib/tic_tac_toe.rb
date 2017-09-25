@@ -111,11 +111,7 @@ def winner(board)
 end
 
 def play(board)
-until over?(board)
-  current_player(board)
-  turn(board)
-end
-until draw?(board)
+until over?(board) || draw?(board)
   current_player(board)
   turn(board)
 end
