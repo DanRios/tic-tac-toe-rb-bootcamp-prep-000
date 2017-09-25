@@ -110,4 +110,9 @@ end
 
 def play(board)
 input=gets
+until over?(board)
+  current_player(board)
+  turn(board)
 end
+end
+
