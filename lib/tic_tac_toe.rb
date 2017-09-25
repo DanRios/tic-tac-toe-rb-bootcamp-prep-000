@@ -104,7 +104,7 @@ end
 def winner(board)
   done = won?(board)
   if done
-    return board[done[0]]
+    board[done[0]]
   end
 end
 
