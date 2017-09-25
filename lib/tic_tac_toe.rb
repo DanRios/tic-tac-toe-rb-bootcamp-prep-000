@@ -105,6 +105,8 @@ def winner(board)
   done = won?(board)
   if done
     board[done[0]]
+  else
+    nil
   end
 end
 
